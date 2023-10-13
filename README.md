@@ -1,4 +1,6 @@
 # debtracker
+debtracker.vercel.app
+debtracker adalah aplikasi untuk mencatat riwayat hutang antar user yang saling berteman secara terintegrasi
 
 ## Build Setup
 
