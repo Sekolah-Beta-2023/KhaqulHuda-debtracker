@@ -29,4 +29,4 @@ You can access DebTracker through [https://debtracker.vercel.app](https://debtra
    Clone this repository to your computer:
 
    ```bash
-   git clone https://github.com/your-username/debtracker.git
+   git clone https://github.com/Sekolah-Beta-2023/KhaqulHuda-debtracker.git
