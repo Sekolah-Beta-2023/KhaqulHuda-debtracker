@@ -1,71 +1,71 @@
-# debtracker
-debtracker.vercel.app
-debtracker adalah aplikasi untuk mencatat riwayat hutang antar user yang saling berteman secara terintegrasi
+\# DebTracker
 
-## Build Setup
+DebTracker adalah aplikasi manajemen utang sederhana yang memungkinkan Anda untuk melacak utang dan hutang dengan teman-teman Anda. Aplikasi ini memungkinkan Anda untuk menambahkan teman, memasukkan transaksi, dan mengelola status utang Anda.
 
-```bash
-# install dependencies
-$ yarn install
+\## Fitur
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+- \*\*Daftar Teman:\*\* Tampilkan daftar teman Anda dan lihat informasi kontak mereka.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+- \*\*Transaksi:\*\* Tambahkan transaksi untuk setiap teman, termasuk keterangan, jumlah utang, dan status (lunas, utang, atau dibayar).
 
-# generate static project
-$ yarn generate
-```
+- \*\*Pemberitahuan:\*\* Terima pemberitahuan tentang permintaan pertemanan dan permintaan pembayaran utang.
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+- \*\*Manajemen Utang:\*\* Lacak utang Anda dengan teman-teman Anda dan tampilkan riwayat transaksi.
 
-## Special Directories
+\## Penggunaan
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Anda dapat mengakses DebTracker melalui \[https://debtracker.vercel.app\](https://debtracker.vercel.app).
 
-### `assets`
+\## Panduan Pengembangan
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+1. \*\*Persiapan Lingkungan:\*\*
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+   Pastikan Anda memiliki Node.js dan npm terinstal di komputer Anda. Jika belum, Anda dapat mengunduhnya dari \[Node.js website\](https://nodejs.org/).
 
-### `components`
+2. \*\*Clone Repositori:\*\*
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+   Clone repositori ini ke komputer Anda:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+   \```bash
+   git clone https://github.com/your-username/debtracker.git
+   \```
 
-### `layouts`
+3. \*\*Install Dependencies:\*\*
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+   Masuk ke direktori proyek dan instal dependensi:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+   \```bash
+   cd debtracker
+   npm install
+   \```
 
+4. \*\*Menjalankan Aplikasi:\*\*
 
-### `pages`
+   Jalankan aplikasi dalam mode pengembangan:
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+   \```bash
+   npm run dev
+   \```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+   Aplikasi akan tersedia di \[http://localhost:3000\](http://localhost:3000). Anda dapat mulai mengembangkan dan menyesuaikan aplikasi sesuai kebutuhan Anda.
 
-### `plugins`
+5. \*\*Menggunakan Supabase:\*\*
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+   DebTracker menggunakan Supabase sebagai backend untuk menyimpan data. Pastikan Anda memiliki akun Supabase dan konfigurasi API key yang sesuai. Ubah konfigurasi API key Supabase Anda dalam berkas .env:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+   \```
+   SUPABASE_URL=YOUR_SUPABASE_URL
+   SUPABASE_KEY=YOUR_SUPABASE_KEY
+   \```
 
-### `static`
+6. \*\*Mengganti Informasi Proyek:\*\*
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+   Ubah informasi proyek dalam berkas package.json, termasuk nama, deskripsi, dan lainnya sesuai dengan proyek Anda.
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+\## Kontribusi
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+Jika Anda ingin berkontribusi pada proyek ini, Anda dapat mengirimkan pull request. Pastikan untuk mengikuti panduan kontribusi yang ada.
 
-### `store`
+\## Lisensi
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+Proyek ini dilisensikan di bawah \[MIT License\](LICENSE).
